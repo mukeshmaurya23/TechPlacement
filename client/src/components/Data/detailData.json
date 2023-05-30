@@ -1,0 +1,188 @@
+[{
+  "_id": {
+    "$oid": "6338514fe10e60f9d66436f2"
+  },
+  "id": "Accolite",
+  "title": "Accolite",
+  "description": "Accolite Digital is an innovative, best-in-class digital transformation services provider, successfully delivering design-driven complex digital transformation initiatives to Fortune 500 clients. Recognized for providing cutting edge information technology services with a proven track record of being totally client focussed, Accolite promises efficient, affordable and on-time IT services. The mission of Accolite is to solve our client’s most complex digital challenges by engaging the brightest of technical minds.",
+  "link": "Accolite",
+  "image": "https://drive.google.com/file/d/1ESTfnA6xcldTn1cn0sXwo0N8rIVky6PO/view?usp=sharing",
+  "problemStatement": [
+    {
+      "id": "1",
+      "q1": "Missing number in array",
+      "topic": "Array",
+      "description": "Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.\n\nExample 1:\n\nInput:\nN = 5\nA[] = {1,2,3,5}\nOutput: 4\nExample 2:\n\nInput:\nN = 10\nA[] = {6,1,2,8,3,4,7,10,5}\nOutput: 9\n\nYour Task :\nYou don't need to read input or print anything. Complete the function MissingNumber() that takes array and N as input  parameters and returns the value of the missing number.\n\n\nExpected Time Complexity: O(N)\nExpected Auxiliary Space: O(1)\n\n\nConstraints:\n1 ≤ N ≤ 106\n1 ≤ A[i] ≤ 106",
+      "_id": {
+        "$oid": "6338514fe10e60f9d66436f3"
+      }
+    },
+    {
+      "id": "2",
+      "q1": "Rotate a Linked List",
+      "topic": "Linked List",
+      "description": "Given a singly linked list of size N. The task is to left-shift the linked list by k nodes, where k is a given positive integer smaller than or equal to length of the linked list.\n\nExample 1:\n\nInput:\nN = 5\nvalue[] = {2, 4, 7, 8, 9}\nk = 3\nOutput: 8 9 2 4 7\nExplanation:\nRotate 1: 4 -> 7 -> 8 -> 9 -> 2\nRotate 2: 7 -> 8 -> 9 -> 2 -> 4\nRotate 3: 8 -> 9 -> 2 -> 4 -> 7\nExample 2:\n\nInput:\nN = 8\nvalue[] = {1, 2, 3, 4, 5, 6, 7, 8}\nk = 4\nOutput: 5 6 7 8 1 2 3 4\n\nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function rotate() which takes a head reference as the first argument and k as the second argument, and returns the head of the rotated linked list.\n\nExpected Time Complexity: O(N).\nExpected Auxiliary Space: O(1).\n\nConstraints:\n1 <= N <= 103\n1 <= k <= N",
+      "_id": {
+        "$oid": "6338514fe10e60f9d66436f4"
+      }
+    },
+    {
+      "id": "3",
+      "q1": "Triplet Sum in Array",
+      "topic": "Array",
+      "description": "Given an array arr of size n and an integer X. Find if there's a triplet in the array which sums up to the given integer X.\n\n\nExample 1:\n\nInput:\nn = 6, X = 13\narr[] = [1 4 45 6 10 8]\nOutput:\n1\nExplanation:\nThe triplet {1, 4, 8} in \nthe array sums up to 13.\nExample 2:\n\nInput:\nn = 5, X = 10\narr[] = [1 2 4 3 6]\nOutput:\n1\nExplanation:\nThe triplet {1, 3, 6} in \nthe array sums up to 10.\n\nYour Task:\nYou don't need to read input or print anything. Your task is to complete the function find3Numbers() which takes the array arr[], the size of the array (n) and the sum (X) as inputs and returns True if there exists a triplet in the array arr[] which sums up to X and False otherwise.\n\n\nExpected Time Complexity: O(n2)\nExpected Auxiliary Space: O(1)\n\n\nConstraints:\n1 ≤ n ≤ 103\n1 ≤ A[i] ≤ 105",
+      "_id": {
+        "$oid": "6338514fe10e60f9d66436f5"
+      }
+    },
+    {
+      "id": "4",
+      "q1": "Product array puzzle",
+      "topic": "Array",
+      "description": "Given an array nums[] of size n, construct a Product Array P (of same size n) such that P[i] is equal to the product of all the elements of nums except nums[i].\n\n \n\nExample 1:\n\nInput:\nn = 5\nnums[] = {10, 3, 5, 6, 2}\nOutput:\n180 600 360 300 900\nExplanation: \nFor i=0, P[i] = 3*5*6*2 = 180.\nFor i=1, P[i] = 10*5*6*2 = 600.\nFor i=2, P[i] = 10*3*6*2 = 360.\nFor i=3, P[i] = 10*3*5*2 = 300.\nFor i=4, P[i] = 10*3*5*6 = 900.\nExample 2:\n\nInput:\nn = 2\nnums[] = {12,0}\nOutput:\n0 12\n\nYour Task:\nYou do not have to read input. Your task is to complete the function productExceptSelf() that takes array nums[] and n as input parameters and returns a list of n integers denoting the product array P. If the array has only one element the returned list should should contains one value i.e {1}\nNote: Try to solve this problem without using the division operation.\n \n\nExpected Time Complexity: O(n)\nExpected Auxiliary Space: O(n)\n \n\nConstraints:\n1 <= n <= 1000\n0 <= numsi <= 200\nArray may contain duplicates.",
+      "_id": {
+        "$oid": "6338514fe10e60f9d66436f6"
+      }
+    },
+    {
+      "id": "5",
+      "q1": "Search in a matrix",
+      "topic": "Matrix",
+      "description": "Given a matrix mat[][] of size N x M, where every row and column is sorted in increasing order, and a number X is given. The task is to find whether element X is present in the matrix or not.\n\n\nExample 1:\n\nInput:\nN = 3, M = 3\nmat[][] = 3 30 38 \n         44 52 54 \n         57 60 69\nX = 62\nOutput:\n0\nExplanation:\n62 is not present in the\nmatrix, so output is 0\n\nExample 2:\n\nInput:\nN = 1, M = 6\nmat[][] = 18 21 27 38 55 67\nX = 55\nOutput:\n1\nExplanation:\n55 is present in the\nmatrix at 5th cell.\n\nYour Task:\nYou don't need to read input or print anything. You just have to complete the function matSearch() which takes a 2D matrix mat[][], its dimensions N and M and integer X as inputs and returns 1 if the element X is present in the matrix and 0 otherwise.\n\n\nExpected Time Complexity: O(N+M).\nExpected Auxiliary Space: O(1).\n\n\nConstraints:\n1 <= N, M <= 1005\n1 <= mat[][] <= 10000000\n1<= X <= 10000000",
+      "_id": {
+        "$oid": "6338514fe10e60f9d66436f7"
+      }
+    },
+    {
+      "id": "6",
+      "q1": "Non Repeating Numbers",
+      "topic": "Bit Magic",
+      "description": "Given an array A containing 2*N+2 positive numbers, out of which 2*N numbers exist in pairs whereas the other two number occur exactly once and are distinct. Find the other two numbers. Return in increasing order.\n\n\nExample 1:\n\nInput: \nN = 2\narr[] = {1, 2, 3, 2, 1, 4}\nOutput:\n3 4 \nExplanation:\n3 and 4 occur exactly once.\nExample 2:\n\nInput:\nN = 1\narr[] = {2, 1, 3, 2}\nOutput:\n1 3\nExplanation:\n1 3 occur exactly once.\n\nYour Task:\nYou do not need to read or print anything. Your task is to complete the function singleNumber() which takes the array as input parameter and returns a list of two numbers which occur exactly once in the array. The list must be in ascending order.\n\n\nExpected Time Complexity: O(N)\nExpected Space Complexity: O(1)\n\n\nConstraints:\n1 <= length of array <= 106 \n1 <= Elements in array <= 5 * 106",
+      "_id": {
+        "$oid": "6338514fe10e60f9d66436f8"
+      }
+    }
+  ],
+  "carrerLink": "https://www.accolite.com/careers",
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1664635215756"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63385a67e10e60f9d664370b"
+  },
+  "id": "HCL",
+  "title": "HCL",
+  "description": " HCL Technologies, formerly Hindustan Computers Limited is an IT services and consulting company. It is a service-based company and operates in 45 countries and has its headquarters in Noida, India.  This company helps enterprises reimagine their businesses for the digital age. They help enterprises with strategies built around Digital, Analytics, Cloud, IoT, Automation, Cybersecurity, Infrastructure Management, and Engineering Services. It operates in various sectors right from banking, automotive up to healthcare and also media and entertainment. HCL Technologies is one of the top 20 largest publicly-traded companies in India.   HCL Technologies is recognized as one of the world’s most influential companies. They believe in enthusing, empowering and encouraging our employees across the organization. HCL Technologies are growing quickly with an incredible workforce. They are committed to becoming the number one Software company in the world.",
+  "link": "HCL",
+  "image": "https://drive.google.com/file/d/1-aNrMYTLoUOqFmOCl0HYRa1n7NQca9qy/view?usp=sharing",
+  "problemStatement": [
+    {
+      "id": "1",
+      "q1": "Palindrome Integer",
+      "topic": "Basic",
+      "description": "Determine whether an integer is a palindrome. Do this without extra space.\n\nA palindrome integer is an integer x for which reverse(x) = x where reverse(x) is x with its digit reversed. Negative numbers are not palindromic.\n\nExample :\n\nInput : 12121\nOutput : 1\n\n\nInput : 123\nOutput : 0",
+      "_id": {
+        "$oid": "63385a67e10e60f9d664370c"
+      }
+    },
+    {
+      "id": "2",
+      "q1": "Rotate Matrix",
+      "topic": "Matrix",
+      "description": "You are given an n x n 2D matrix representing an image.\n\nRotate the image by 90 degrees (clockwise).\n\nYou need to do this in place.\n\nNote that if you end up using an additional array, you will only receive partial score.\n\nExample:\n\nIf the array is\n\n[\n    [1, 2],\n    [3, 4]\n]\nThen the rotated array becomes:\n\n[\n    [3, 1],\n    [4, 2]\n]",
+      "_id": {
+        "$oid": "63385a67e10e60f9d664370d"
+      }
+    },
+    {
+      "id": "3",
+      "q1": "Remove Duplicates from Sorted List",
+      "topic": "Linked List",
+      "description": "Given a sorted linked list, delete all duplicates such that each element appear only once.\n\nFor example,\n\nGiven 1->1->2, return 1->2.\n\nGiven 1->1->2->3->3, return 1->2->3.",
+      "_id": {
+        "$oid": "63385a67e10e60f9d664370e"
+      }
+    },
+    {
+      "id": "4",
+      "q1": "Swap Bits",
+      "topic": "Bits Manipulation",
+      "description": "Given an integer A.\nSwap the Bth and Cth bit from right in binary representation of A.\nReturn the integer formed.\n\n\nProblem Constraints\n1 <= A < 230\n1 <= B, C <= 30\n\n\nInput Format\nFirst argument is an integer A.\nSecond argument is an integer B.\nThird argument is an integer C.\n\n\nOutput Format\nReturn an integer.\n\n\nExample Input\nInput 1:\nA = 9\nB = 1\nC = 2\nInput 2:\n\nA = 1\nB = 1\nC = 3\n\n\nExample Output\nOutput 1:\n10\nOutput 2:\n\n4\n\n\nExample Explanation\nExplanation 1:\n5 -> 101\nSwapping 1st and 2nd bit from right gives 110.\nExplanation 2:\n\n1 -> 001\nSwapping 1st and 3rd bit from right gives 100.\n",
+      "_id": {
+        "$oid": "63385a67e10e60f9d664370f"
+      }
+    }
+  ],
+  "carrerLink": "https://www.hcltech.com/careers/Careers-in-india",
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1664637543709"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633933efb2ed1729587e4de1"
+  },
+  "id": "AnyDesk",
+  "title": "AnyDesk",
+  "description": "AnyDesk was founded in Germany in 2014, and its unique remote desktop access software has been downloaded by more than 100 million users worldwide, adding another 5 million every month. The software is based on their unique proprietary codec, DeskRT, that allows for virtually latency-free collaboration, whether you’re down the hall, or on the otherside of the world. They’re one of the 50 fastest-growing firms in Germany, and they need someone like you to help us keep expanding. AnyDesk is the fastest remote desktop software on the market. It allows for new usage scenarios and applications that have not been possible with current remote desktop software.",
+  "link": "AnyDesk",
+  "image": "https://drive.google.com/file/d/1-mqe4qywB1r96eeI1DelcIibNkBSsH65/view?usp=sharing",
+  "problemStatement": [
+    {
+      "id": "1",
+      "q1": "Product array puzzle",
+      "topic": "Array",
+      "description": "Given an array nums[] of size n, construct a Product Array P (of same size n) such that P[i] is equal to the product of all the elements of nums except nums[i].\n\n \n\nExample 1:\n\nInput:\nn = 5\nnums[] = {10, 3, 5, 6, 2}\nOutput:\n180 600 360 300 900\nExplanation: \nFor i=0, P[i] = 3*5*6*2 = 180.\nFor i=1, P[i] = 10*5*6*2 = 600.\nFor i=2, P[i] = 10*3*6*2 = 360.\nFor i=3, P[i] = 10*3*5*2 = 300.\nFor i=4, P[i] = 10*3*5*6 = 900.\nExample 2:\n\nInput:\nn = 2\nnums[] = {12,0}\nOutput:\n0 12\n\nYour Task:\nYou do not have to read input. Your task is to complete the function productExceptSelf() that takes array nums[] and n as input parameters and returns a list of n integers denoting the product array P. If the array has only one element the returned list should should contains one value i.e {1}\nNote: Try to solve this problem without using the division operation.\n \n\nExpected Time Complexity: O(n)\nExpected Auxiliary Space: O(n)\n \n\nConstraints:\n1 <= n <= 1000\n0 <= numsi <= 200\nArray may contain duplicates.\n\n",
+      "_id": {
+        "$oid": "633933efb2ed1729587e4de2"
+      }
+    },
+    {
+      "id": "2",
+      "q1": "Activity Selection",
+      "topic": "Dynamic Programming",
+      "description": "Given N activities with their start and finish day given in array start[ ] and end[ ]. Select the maximum number of activities that can be performed by a single person, assuming that a person can only work on a single activity at a given day.\nNote : Duration of the activity includes both starting and ending day.\n\n\nExample 1:\n\nInput:\nN = 2\nstart[] = {2, 1}\nend[] = {2, 2}\nOutput: \n1\nExplanation:\nA person can perform only one of the\ngiven activities.\nExample 2:\n\nInput:\nN = 4\nstart[] = {1, 3, 2, 5}\nend[] = {2, 4, 3, 6}\nOutput: \n3\nExplanation:\nA person can perform activities 1, 2\nand 4.\n\nYour Task :\nYou don't need to read input or print anything. Your task is to complete the function activityselection() which takes array start[ ], array end[ ] and integer N as input parameters and returns the maximum number of activities that can be done.\n\n\nExpected Time Complexity : O(N * Log(N))\nExpected Auxilliary Space : O(N)\n\nConstraints:\n1 ≤ N ≤ 2*105\n1 ≤ start[i] ≤ end[i] ≤ 109",
+      "_id": {
+        "$oid": "633933efb2ed1729587e4de3"
+      }
+    },
+    {
+      "id": "3",
+      "q1": "Print Anagrams Together",
+      "topic": "String",
+      "description": "Given an array of strings, return all groups of strings that are anagrams. The groups must be created in order of their appearance in the original array. Look at the sample case for clarification.\n\nNote: The final output will be in lexicographic order.\n\n\nExample 1:\n\nInput:\nN = 5\nwords[] = {act,god,cat,dog,tac}\nOutput:\nact cat tac \ngod dog\nExplanation:\nThere are 2 groups of\nanagrams \"god\", \"dog\" make group 1.\n\"act\", \"cat\", \"tac\" make group 2.\nExample 2:\n\nInput:\nN = 3\nwords[] = {no,on,is}\nOutput: \nis\nno on\nExplanation:\nThere are 2 groups of\nanagrams \"is\" makes group 1.\n\"no\", \"on\" make group 2.\n\nYour Task:\nThe task is to complete the function Anagrams() that takes a list of strings as input and returns a list of groups such that each group consists of all the strings that are anagrams.\n\n\nExpected Time Complexity: O(N*|S|*log|S|), where |S| is the length of the strings.\nExpected Auxiliary Space: O(N*|S|), where |S| is the length of the strings.\n\n\nConstraints:\n1<=N<=100\n\n1<=|S|<=10",
+      "_id": {
+        "$oid": "633933efb2ed1729587e4de4"
+      }
+    }
+  ],
+  "carrerLink": "https://anydesk.com/en/career",
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1664693231608"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63397c4895116a4bd9b45423"
+  },
+  "id": "Google",
+  "title": "Google",
+  "description": "Tata Consultancy Services is a global leader in IT services...",
+  "link": "Google",
+  "image": "uploads\\images\\c2d55505-6f23-4e56-a6f2-3939b2d0d8ff.png",
+  "problemStatement": [],
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1664711752754"
+    }
+  },
+  "__v": 0
+}]

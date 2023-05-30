@@ -1,0 +1,25 @@
+.dropdown {
+  background-color: white;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+  width: 12%;
+}
+.dropdown select:hover {
+  cursor: pointer;
+}
+.dropdown select {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 10px 15px 10px 2px;
+  border: none;
+  background-color: transparent;
+}
+.dropdown select:focus {
+  outline: none;
+}
+@media only screen and (max-width: 600px) {
+  .dropdown {
+    margin-top: 1rem;
+    width: 50%;
+  }
+}

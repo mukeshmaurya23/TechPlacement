@@ -1,0 +1,97 @@
+.prepareButton {
+  background-color: #32c888;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 7px;
+}
+
+.prepareButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.prepareButton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.prepareButton:hover span {
+  padding-right: 25px;
+}
+
+.prepareButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.leftIMage {
+  float: left;
+  min-width: 55px;
+}
+.rightText {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.rightText p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card {
+  margin: 1rem;
+  height: 100px;
+  border-radius: 27px;
+  box-shadow: 1px 1px 8px 0px #cecece;
+}
+@media only screen and (min-width: 1300px) {
+  .search {
+    margin-left: 30rem;
+    width: 40%;
+    z-index: 0;
+    margin-bottom: 2rem;
+  }
+}
+.auto-grid {
+  --auto-grid-min-size: 16rem;
+
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  grid-gap: 1.3rem;
+}
+
+/*
+  WRAPPER
+  A utility with a max width that contains child elements and horizontal centers them
+*/
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+  }
+  .titletext {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .rightText p {
+    font-size: 0.9rem;
+    font-weight: 650;
+    margin-top: 0.7rem;
+  }
+}

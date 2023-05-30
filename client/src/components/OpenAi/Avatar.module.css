@@ -1,0 +1,16 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+@media screen and (max-width: 1024px) {
+  .avatar {
+    width: 24px;
+    height: 24px;
+  }
+}

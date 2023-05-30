@@ -1,0 +1,753 @@
+[
+  {
+    "id": "Accolite",
+    "title": "Accolite",
+    "image": "https://drive.google.com/file/d/1ESTfnA6xcldTn1cn0sXwo0N8rIVky6PO/view?usp=sharing",
+    "description": "Accolite Digital is an innovative, best-in-class digital transformation services provider, successfully delivering design-driven complex digital transformation initiatives to Fortune 500 clients. Recognized for providing cutting edge information technology services with a proven track record of being totally client focussed, Accolite promises efficient, affordable and on-time IT services. The mission of Accolite is to solve our client’s most complex digital challenges by engaging the brightest of technical minds.",
+    "link": "Accolite",
+    "problemStatement": [
+      {
+        "id": 1,
+        "q1": "Missing number in array",
+        "topic": "Array",
+        "description": "",
+        "ans1": "Largest Number From Array"
+      },
+      {
+        "id": 2,
+        "q1": "Even/Odd",
+        "topic": "Basic",
+        "description": "Given an integer, check if it is even or odd.",
+        "ans1": "Largest Number From Array"
+      },
+      {
+        "id": 3,
+        "q1": "Linked List Cycle",
+        "topic": "Basic",
+        "description": "Given a linked list, determine if it has a cycle in it.",
+        "ans1": "Largest Number From Array"
+      },
+      {
+        "id": 4,
+        "q1": "Stack queue Cycle",
+        "topic": "Basic",
+        "description": "Given a stack queue, determine if it has a cycle in it.",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+
+  {
+    "id": "Amazon",
+    "title": "Amazon",
+    "image": "asset/amazon.png",
+    "description": "Amazon is an American international technology company which started as...",
+    "link": "Amazon",
+    "problemStatement": [
+      {
+        "id": 1,
+        "q1": "Largest Array",
+        "topic": "Array",
+        "description": "Given an array of integers, find the largest element in it.",
+        "ans1": "Largest Number From Array"
+      },
+      {
+        "id": 2,
+        "q1": " Array",
+        "topic": "Array",
+        "description": "Given an array of integers, dhdafjfdlkdfjlkdjfkk;lfind the largest element in it.",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Airtel",
+    "title": "Airtel",
+    "image": "asset/airtel.png",
+    "description": "Airtel is India's premier communications solutions provider with operations in 18 countries a..",
+    "link": "Airtel",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Adobe",
+    "title": "Adobe",
+    "image": "asset/adobe.png",
+    "description": "Adobe is an American multinational computer software company and Adobe has historica..",
+    "link": "Adobe",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Apple",
+    "title": "Apple",
+    "image": "asset/apple.png",
+    "description": "Apple is an American international technology company and...",
+    "link": "Apple",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Atlan",
+    "title": "Atlan",
+    "image": "asset/atlan.png",
+    "description": "Atlan is a modern data collaboration workspace (like Github for en....",
+    "link": "Atlan",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Bharatpe",
+    "title": "Bharatpe",
+    "image": "asset/bharatpe.png",
+    "description": "BharatPe was launched with the vision to make financial inclusion a...",
+    "link": "Bharatpe",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Amdocs",
+    "title": "Amdocs",
+    "image": "asset/amdocs.png",
+    "description": "Amdocs is a multinational corporation headquartered ...",
+    "link": "Amdocs",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Baidu",
+    "title": "Baidu",
+    "image": "asset/baidu.png",
+    "description": "Baidu is a global technology company headquartered in...",
+    "link": "Baidu",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Bosch",
+    "title": "Bosch",
+    "image": "asset/bosach.png",
+    "description": "Bosch is a global technology company headquartered mumbai coloba 400080...",
+    "link": "Bosch",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Cisco",
+    "title": "Cisco",
+    "image": "asset/ccisco.png",
+    "description": "Cisco is a global technology company headquartered in...",
+    "link": "Cisco",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Citibank",
+    "title": "Citibank",
+    "image": "asset/citibank.png",
+    "description": "Citibank is a global technology ...",
+    "link": "Citibank",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Cognizant",
+    "title": "Cognizant",
+    "image": "asset/cognizant.png",
+    "description": "Cognizant is a global technology company headquartered in...",
+    "link": "Cognizant",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Croma",
+    "title": "Croma",
+    "image": "asset/croma.png",
+    "description": "Croma is a global technology company...",
+    "link": "Croma",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Dell",
+    "title": "Dell",
+    "image": "asset/dell.png",
+    "description": "Dell is a global technology company headquartered in...",
+    "link": "Dell",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Deloitte",
+    "title": "Deloitte",
+    "image": "asset/deloitte.png",
+    "description": "Deloitte is a global technology company headquartered in...",
+    "link": "Deloitte",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Dharma",
+    "title": "Dharma",
+    "image": "asset/dharma.png",
+    "description": "Dharma is a global technology company headquartered in...",
+    "link": "Dharma",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "DHL",
+    "title": "DHL",
+    "image": "asset/dhl.png",
+
+    "description": "DHL is a global technology company headquartered in...",
+    "link": "DHL",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Docker",
+    "title": "Docker",
+    "image": "asset/docker.png",
+    "description": "Docker is a global technology company headquartered in...",
+    "link": "Docker",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Dynex",
+    "title": "Dynex",
+    "image": "asset/dynex.png",
+    "description": "Dynex is a global technology company headquartered in...",
+    "link": "Dynex",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Ebay",
+    "title": "Ebay",
+    "image": "asset/ebay.png",
+    "description": "Ebay is a global technology company headquartered in...",
+    "link": "Ebay",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+
+  {
+    "id": "Facebook",
+    "title": "Facebook",
+    "image": "asset/facebook.png",
+    "description": "Facebook is a global technology company headquartered in...",
+    "link": "Facebook",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Fidelity",
+    "title": "Fidelity",
+    "image": "asset/fidelity.png",
+    "description": "Fidelity is a global technology company headquartered in...",
+    "link": "Fidelity",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Flipkart",
+    "title": "Flipkart",
+    "image": "asset/flipkart.png",
+    "description": "Flipkart is a global technology company headquartered in...",
+    "link": "Flipkart",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Google",
+    "title": "Google",
+    "image": "asset/google.png",
+    "description": "Google is a global technology company headquartered in...",
+    "link": "Google",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "HCL",
+    "title": "HCL",
+    "image": "asset/hcl.png",
+    "description": "HCL is a global technology company headquartered in...",
+    "link": "HCL",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "HP",
+    "title": "HP",
+    "image": "asset/hp.png",
+    "description": "HP is a global technology company...",
+    "link": "HP",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "IBM",
+    "title": "IBM",
+    "image": "asset/ibm.png",
+    "description": "IBM is a global technology company headquartered in...",
+    "link": "IBM",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Infosys",
+    "title": "Infosys",
+    "image": "asset/infosys.png",
+    "description": "Infosys is a global technology company ...",
+    "link": "Infosys",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Intel",
+    "title": "Intel",
+    "image": "asset/intel.png",
+    "description": "Intel is a global technology company headquartered in...",
+    "link": "Intel",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Intuit",
+    "title": "Intuit",
+    "image": "asset/intuit.png",
+    "description": "Intuit is a global technology company headquartered in mumbai coloba...",
+    "link": "Intuit",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Jaguar",
+    "title": "Jaguar",
+    "image": "asset/jaguar.png",
+    "description": "Jaguar is a global technology company headquartered in...",
+    "link": "Jaguar",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Jio",
+    "title": "Jio",
+    "image": "asset/jio.png",
+    "description": "Jio is a global technology company headquartered in...",
+    "link": "Jio",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "JPMorgan",
+    "title": "JPMorgan",
+    "image": "asset/jpmorgan.png",
+    "description": "JPMorgan is a global technology company headquartered in...",
+    "link": "JPMorgan",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "KPMG",
+    "title": "KPMG",
+    "image": "asset/kpmg.png",
+    "description": "KPMG is a global technology company headquartered in...",
+    "link": "KPMG",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "L&T",
+    "title": "L&T",
+    "image": "asset/lnt.png",
+    "description": "L&T is a global technology company headquartered in...",
+    "link": "L&T",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Larsen",
+    "title": "Larsen",
+    "image": "asset/larsen.png",
+    "description": "Larsen is a global technology company headquartered in...",
+    "link": "Larsen",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+
+  {
+    "id": "Lilly",
+    "title": "Lilly",
+    "image": "asset/lilly.png",
+    "description": "Lilly is a global technology company headquartered in...",
+    "link": "Lilly",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Lulu",
+    "title": "Lulu",
+    "image": "asset/lulu.png",
+    "description": "Lulu is a global technology company headquartered in...",
+    "link": "Lulu",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      },
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Microsoft",
+    "title": "Microsoft",
+    "image": "asset/microsoft.png",
+    "description": "Microsoft is a global technology company headquartered in...",
+    "link": "Microsoft",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Morgan Stanley",
+    "title": "Morgan Stanley",
+    "image": "asset/morgan.png",
+    "description": "Morgan Stanley is a global technology c...",
+    "link": "Morgan Stanley",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Nokia",
+    "title": "Nokia",
+    "image": "asset/nokia.png",
+    "description": "Nokia is a global technology company headquartered in...",
+    "link": "Nokia",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Oracle",
+    "title": "Oracle",
+    "image": "asset/oracle.png",
+    "description": "Oracle is a global technology company headquartered in...",
+    "link": "Oracle",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      },
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Paytm",
+    "title": "Paytm",
+    "image": "asset/paytm.png",
+    "description": "Paytm is a global technology company headquartered in...",
+    "link": "Paytm",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Pepsi",
+    "title": "Pepsi",
+    "image": "asset/pepsi.png",
+    "description": "Pepsi is a global technology company headquartered in...",
+    "link": "Pepsi",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Pfizer",
+    "title": "Pfizer",
+    "image": "asset/pfizer.png",
+    "description": "Pfizer is a global technology company headquartered in mumbai coloba 400080...",
+    "link": "Pfizer",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Puma",
+    "title": "Puma",
+    "image": "asset/puma.png",
+    "description": "Puma is a global technology company headquartered in in mumbai coloba 400080...",
+    "link": "Puma",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "Reliance",
+    "title": "Reliance",
+    "image": "asset/reliance.png",
+    "description": "Reliance is a global technology company headquartered in mumbai coloba 400080...",
+    "link": "Reliance",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "SAP",
+    "title": "SAP",
+    "image": "asset/sap.png",
+    "description": "SAP is a global technology company headquartered inin mumbai coloba 400080..",
+    "link": "SAP",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  },
+  {
+    "id": "SankeySolution",
+    "title": "Sankey Solution",
+    "image": "asset/sankey2.png",
+    "description": "Sankey Solution is a Startup technology in...",
+    "link": "SankeySolution",
+    "problemStatement": [
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      },
+      {
+        "q1": "Largest Array",
+        "topic": "Array",
+        "ans1": "Largest Number From Array"
+      }
+    ]
+  }
+]

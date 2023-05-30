@@ -1,0 +1,52 @@
+ <table className="table">
+                <tbody>
+                  <tr>
+                    <td>Largest Number From Array</td>
+                    <td>Array</td>
+                    <td style={{ width: "2rem" }}>
+                      <button className="btn btn-success">Solve</button>
+                    </td>
+                    <td>
+                      <button
+                        className="btn btn-success"
+                        type="submit"
+                        onClick={openModal}
+                      >
+                        View
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sample Question</td>
+                    <td>Array</td>
+                    <td>
+                      <button className="btn btn-success">Solve</button>
+                    </td>
+                    <td>
+                      <button
+                        className="btn btn-success"
+                        type="submit"
+                        onClick={openModal}
+                      >
+                        View
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sort List</td>
+                    <td>Link List</td>
+                    <td>
+                      <button className="btn btn-success">Solve</button>
+                    </td>
+                    <td>
+                      <button
+                        className="btn btn-success"
+                        type="submit"
+                        onClick={openModal}
+                      >
+                        View
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>

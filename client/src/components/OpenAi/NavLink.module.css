@@ -1,0 +1,54 @@
+.navPrompt {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  column-gap: 20px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+@keyframes fadeInChar {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.navPrompt p {
+  font-size: 14px;
+  line-height: 20px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 150px;
+  margin: 0;
+}
+
+.navPrompt span {
+  animation: fadeInChar 1s ease-in forwards;
+  opacity: 0;
+}
+.sideMenuButton {
+  border: 1px solid #111;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+}
+.navPrompt:hover,
+.sideMenuButton:hover {
+  cursor: pointer;
+  background-color: hsla(240, 9%, 59%, 0.1);
+}
+.sideMenuButton span {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 6px;
+  padding-right: 10px;
+}

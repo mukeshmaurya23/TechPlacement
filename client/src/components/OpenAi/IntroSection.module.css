@@ -1,0 +1,39 @@
+.introsection::before,
+.introsection::after {
+  content: " ";
+  float: left;
+}
+.introsection {
+  text-align: left;
+  padding: 4rem;
+}
+
+.introsection p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+.introsection ul {
+  list-style-type: square;
+}
+.introsection pre {
+  margin: 0;
+  margin-top: 10px;
+  line-height: 33px;
+  display: inline;
+}
+
+@media screen and (max-width: 1024px) {
+  .introsection {
+    padding: 20px 20px 40px 20px;
+    font-size: 14px;
+  }
+  .introsection h1,
+  pre {
+    font-size: 25px;
+    white-space: pre-wrap;
+  }
+  .introsection h2 {
+    font-size: 14px;
+  }
+}

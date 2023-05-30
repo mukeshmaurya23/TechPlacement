@@ -1,0 +1,25 @@
+.chatbotlogo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.chatbotlogo a {
+  background-color: aliceblue;
+  border: none;
+}
+.chatbotlogo img {
+  width: 50px;
+  height: 40px;
+}
+
+.chatbotlogo i {
+  font-size: 25px;
+  color: white;
+}

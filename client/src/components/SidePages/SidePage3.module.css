@@ -1,0 +1,103 @@
+.doublebox {
+  position: relative;
+  height: 350px;
+  border-radius: 26px 6px 26px 6px;
+  margin-bottom: 26px;
+  background: #fef9f4;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.boxfirst {
+  position: absolute;
+
+  padding-left: 107px;
+  padding-top: 57px;
+}
+
+.boxfirst > img {
+  width: 30%;
+}
+
+.boxfirst > h2 {
+  font-size: 1.6rem;
+}
+
+.boxfirst > p {
+  color: gray;
+  font-size: 1rem;
+}
+
+.boxsecond {
+  top: -34px;
+  left: 550px;
+  position: relative;
+  height: 424px;
+  width: 40%;
+  background: #ffffff;
+  border: 1px solid #eaf1f5;
+  border-radius: 16px 6px;
+  box-shadow: 0px 4px 10px rgb(0 77 255 / 4%);
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  text-align: center;
+}
+
+.boxsecond > div {
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 15px 0px 15px 0px;
+}
+
+.boxsecond > div > p {
+  color: gray;
+}
+.boxsecond > div > h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px;
+  font-weight: 700;
+}
+.boxsecond > div:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+@media only screen and (max-width: 600px) {
+  .boxsecond {
+    top: 210px;
+    left: 0px;
+
+    height: 325px;
+    width: 100%;
+  }
+  .boxfirst {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .boxfirst > img {
+    width: 50%;
+  }
+  .boxfirst > h2 {
+    font-size: 1.2rem;
+  }
+  .boxfirst > p {
+    color: gray;
+    font-size: 0.8rem;
+    padding: 0px 10px;
+  }
+  .doublebox {
+    height: 470px;
+  }
+  .boxsecond > div > h3 {
+    font-size: 0.8rem;
+  }
+  .boxsecond > div > p {
+    font-size: 0.8rem;
+  }
+}

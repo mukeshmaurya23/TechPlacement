@@ -1,0 +1,50 @@
+.button {
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 7px 17px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+.sort {
+  background-color: rgb(31, 166, 52);
+  box-shadow: rgb(31, 166, 52);
+}
+
+.sort:hover {
+  background-color: rgb(31, 166, 52);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sort:active {
+  box-shadow: 0 2px rgb(31, 166, 52);
+  transform: translateY(2px);
+}
+
+.newArray {
+  background-color: rgb(31, 166, 52);
+  box-shadow: 0 2px powderblue;
+}
+
+.newArray:hover {
+  background-color: rgb(31, 166, 52);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active {
+  box-shadow: 0 2px powderblue;
+  transform: translateY(2px);
+}
+@media only screen and (max-width: 600px) {
+  .button {
+    margin-top: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

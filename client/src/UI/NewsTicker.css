@@ -1,0 +1,59 @@
+.holder {
+  width: 350px;
+  height: 300px;
+  background: #fafafb;
+
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+
+  font-family: Helvetica;
+}
+.holder a {
+  margin-right: 2.5rem;
+  font-size: 0.9rem;
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.holder ul {
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+}
+.new-tag {
+  height: 15px;
+  margin-right: 5px;
+}
+.holder ul li {
+  margin-left: 3rem;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+}
+.holder ul li a {
+  color: rgb(13, 13, 211);
+}
+
+@media only screen and (max-width: 600px) {
+  .holder .mask {
+    width: 300px;
+  }
+  .holder ul {
+    width: 300px;
+  }
+  .holder ul li {
+    margin-left: 1.5rem;
+    font-size: 15px;
+  }
+  .holder p {
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,103 @@
+.setReviewCardBorder {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 0.1rem !important;
+}
+.alignNameDesig {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1rem;
+}
+.testimonialImage {
+  max-height: 4rem;
+  max-width: 4rem;
+}
+.testachievement {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+i.icon {
+  display: inline-block;
+  opacity: 1;
+  margin: 0 0.25rem 0 0;
+  width: 1.18rem;
+  height: 1rem;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: inherit;
+  speak-as: none;
+  color: rgba(40, 167, 69);
+}
+/* .dots {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  margin: 0 0.25rem;
+}
+.arrow {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  margin: 0 0.25rem;
+} */
+
+.swiper-slide {
+  /* Center slide text vertically */
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.swiper-pagination-bullet {
+  background: #000;
+  margin-top: 1.5rem;
+}
+.swiper-pagination {
+  bottom: -4px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000;
+}
+.swiper-wrapper {
+  bottom: 1rem;
+}
+
+/* @media screen and (max-width: 768px) {
+  .swiper-slide {
+    
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .setReviewCardBorder {
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 0.1rem !important;
+  }
+  .alignNameDesig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1rem;
+  }
+  .testimonialImage {
+    max-height: 4rem;
+    max-width: 4rem;
+  }
+} */
+@media screen and (max-width: 768px) {
+  .makingResponsiveText {
+    font-size: 1.5rem;
+    width: 250px;
+  }
+}

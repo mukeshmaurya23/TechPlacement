@@ -1,0 +1,101 @@
+.explore {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 70px;
+}
+
+.explorediv {
+  width: 80%;
+
+  margin: auto;
+
+  display: flex;
+}
+.explorelink {
+  text-decoration: none;
+  color: black;
+}
+
+.cards {
+  border-radius: 10px 0px;
+  height: 150px;
+
+  margin: auto;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 0px 10px;
+  margin: 10px;
+}
+
+.cards:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.cards > h3 {
+  padding-left: 15px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.cards > p {
+  color: gray;
+  padding-left: 15px;
+  margin-top: -10px;
+}
+
+.cardimg > img {
+  margin: auto;
+  width: 15%;
+  margin-left: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.featured {
+  text-align: center;
+}
+
+.cards2 {
+  width: 85%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+}
+
+.cardchild {
+  width: 18%;
+  display: grid;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  height: 280px;
+}
+
+.cardchild > img {
+  width: 45%;
+  margin: auto;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .explore {
+    font-size: 1.37rem;
+    font-weight: 700;
+  }
+  .explorediv {
+    width: 100%;
+  }
+
+  .cardchild > img {
+    width: 45%;
+
+    margin: auto;
+    margin-top: 20px;
+  }
+  .cardimg > img {
+    width: 20px;
+  }
+  .cards p {
+    display: none;
+  }
+  .cards h3 {
+    font-size: 0.8rem;
+  }
+}
